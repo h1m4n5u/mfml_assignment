@@ -3,7 +3,6 @@ import math
 def cholesky(A):
     n = len(A)
     L = [[0.0] * n for _ in range(n)]
-
     for i in range(n):
         for j in range(i + 1):
 
